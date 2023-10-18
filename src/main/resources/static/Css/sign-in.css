@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    margin: 0 0 0 22px;
+    padding: 12px 18px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col {
+    margin-top: 20px;
+    width: 380px;
+    border: 1px solid lightgrey;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.forgot_pass {
+    margin-left: 165px;
+}
+
+.heading {
+    margin-bottom: 20px;
+    margin-left: 12px;
+}
+
+.heading h1 {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.form-container input {
+    width: 90%;
+    height: 30px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid grey;
+    margin-left: 12px;
+}
+
+.form-container h6 {
+    margin-left: 12px;
+}
+
+.form-container input,
+button:focus {
+    outline: none;
+}
+
+.form-container h6 {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn {
+    margin-top: 5px;
+}
+
+.btn button {
+    width: 90%;
+    padding: 5px;
+    margin-left: 12px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #FFD814;
+    background-color: #FFD814;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn button:hover {
+    background-color: #e7c209;
+}
+
+.link {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.link span {
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+.drop-down {
+    margin-top: 10px;
+}
+
+.qus {
+    color: #555;
+    text-align: center;
+}
+
+h5 span {
+    letter-spacing: -1px;
+    color: lightgray;
+
+}
+
+.btn-1 {
+    margin-top: 15px;
+}
+
+.btn-1 h5 {
+    font-weight: 500;
+}
+
+.box {
+    margin-top: 15px;
+}
+
+.box button {
+    width: 100%;
+    padding: 6px 110px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+a {
+    text-decoration: none;
+    color: #52B4E9;
+}
+
+.dowp-down h6 {
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-top: 3px;
+    line-height: 20px;
+}
+
+details {
+    margin-left: 12px;
+}
+
+.help {
+    font-size: 14px;
+}
+
+input:focus {
+    box-shadow: 0 0 4px rgb(0, 242, 255);
+}
+
+hr {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid rgba(128, 128, 128, 0.153);
+}

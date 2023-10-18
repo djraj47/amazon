@@ -1,0 +1,54 @@
+/* Reset some default browser styles */
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-1 {
+    background-color: #284261;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+/* Basic styling for the footer */
+footer {
+    background-color: #232f3e;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    padding: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section li {
+    margin: 10px 0;
+}
+
+.footer-section a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
